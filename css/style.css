@@ -101,7 +101,7 @@ header {position: relative;background-color: #06B3B1;border-bottom: 1px dotted #
 .coloumn ul li:first-child{padding-top: 0;}
 .coloumn ul li:last-child{padding-bottom: 0;}
 .table{ margin: 0}
-.coloumn .table>tbody>tr>td {padding: 10px 8px;line-height: 1.42857143;vertical-align: top;border-top: 0;border-bottom: 1px dotted rgba(255,255,255,0.2);}
+.coloumn .table>tbody>tr>td {padding: 10px 8px;line-height: 1.42857143;vertical-align: middle  ;border-top: 0;border-bottom: 1px dotted rgba(255,255,255,0.2);}
 /***  Service Section
 ==============================================================================*/
 #service{position: relative;padding: 100px 0 70px;}
@@ -197,6 +197,7 @@ div.list-group > a {width: 47.222%;float: left;padding: 15px;color: #000;margin:
 
 /*button*/
 .thm-btn {background: #F0653A;border-radius: 30px;display: inline-block;color: #fff;font-size: 12px;text-transform: uppercase;font-weight: bold;padding: 12px 30px;border: 2px solid transparent;transition: all .3s ease;}
+.thm-btn2 {background: #F0653A;border-radius: 30px;display: inline-block;color: #fff;font-size: 9px;text-transform: uppercase;font-weight: bold;padding: 10px 20px;border: 2px solid transparent;transition: all .3s ease;}
 .thm-btn.btn-black {background: transparent;color: #202a30;border-color: #202a30;margin-left: 10px;}
 .thm-btn:hover {background-color: #fff;border-color: #F0653A;color: #F0653A;}
 .thm-btn.btn-black:hover{background-color: #F0653A;border-color: #F0653A;color: #fff;}
@@ -353,23 +354,23 @@ footer .footer-title {margin: 0 0 30px;font-size: 20px;}
 .address {position: relative;line-height: 1.6;margin-bottom: 0;color: #fff;}
 .address i {position: absolute;font-size: 18px;top: -2px;color: #fff;font-weight: 500;}
 .address .address-name {margin-left: 30px;font-size: 15px;}
-.address p {margin-left: 30px;margin-bottom: 1.07em;color: rgba(255, 255, 255, 0.4);}
-.address-inner{font-size: 13px;color: rgba(255, 255, 255, 0.4);}
+.address p {margin-left: 30px;margin-bottom: 1.07em;color: rgba(255, 255, 255, 0.7);}
+.address-inner{font-size: 13px;color: rgba(255, 255, 255, 0.7);}
 .address-inner img{margin-bottom: 15px;}
-.address-inner p{color: rgba(255, 255, 255, 0.4);}
+.address-inner p{color: rgba(255, 255, 255, 0.7);}
 /*news post*/
 .post-widget ul > li {list-style: none;padding: 0px 0px 20px 0;border-bottom: none;border-top: none;color: rgba(255, 255, 255, 0.38);display: block;min-height: 70px;}
 .post-widget ul > li a {color: rgba(255, 255, 255, 0.85);letter-spacing: 0.3px;font-weight: 600;text-decoration: none;}
-.post-widget ul > li a:hover{ color: #11a7fa;}
+.post-widget ul > li a:hover{ color: #F0653A;}
 .post-widget li img {float: left; width: 60px;height: 50px;margin-right: 15px;}
 .post-widget li a {display: block;}
-.post-widget li .post-date {display: inline-block;margin-top: 5px;font-size: 12px;position: relative;line-height: 15px;color: rgba(255, 255, 255, 0.4);font-weight: 500;}
+.post-widget li .post-date {display: inline-block;margin-top: 5px;font-size: 12px;position: relative;line-height: 15px;color: rgba(255, 255, 255, 0.7);font-weight: 500;}
 /*tweet*/
 .latest-tweet {position: relative;padding-left: 32px;display: inline-block;}
 .latest-tweet ul > li {line-height: 20px;font-size: 13px;list-style: none;padding: 0px 0px 20px 0;border-bottom: none;border-top: none;}
-.latest-tweet li::before {font-family: "Flaticon";font-style: normal;font-weight: normal;color: #11a7fa;speak: none;display: inline-block;text-decoration: inherit;margin-right: .2em;text-align: center;font-variant: normal;text-transform: none;line-height: 1.5em;font-size: 18px;content: "\f131"; position: absolute;left: 0px;}
-.latest-tweet .tweet-text {margin-bottom: 10px;color: rgba(255, 255, 255, 0.4);}
-.tweet-text a, .address p a {color: #11a7fa;font-style: italic;}
+.latest-tweet li::before {font-family: "Flaticon";font-style: normal;font-weight: normal;color: #F0653A; display: inline-block;text-decoration: inherit;margin-right: .2em;text-align: center;font-variant: normal;text-transform: none;line-height: 1.5em;font-size: 18px;content: "\f131"; position: absolute;left: 0px;}
+.latest-tweet .tweet-text {margin-bottom: 10px;color: rgba(255, 255, 255, 0.7);}
+.tweet-text a, .address p a {color: #F0653A;font-style: italic;}
 .tweet-details a {color: rgba(255, 255, 255, 0.38);}
 .latest-tweet .tweet-details {margin-top: 0px;display: block;margin-bottom: 10px;font-size: 12px;font-style: italic;}
 /*map*/
